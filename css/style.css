@@ -18,7 +18,10 @@ html {
 
 body {
   margin: 0;
+  background-color: lightgray;
 }
+
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -424,4 +427,23 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* Temp Div borders */
+
+div{
+  border: 1px solid chocolate;
+}
+
+/* set box model for nav menu */
+
+.top-navigation{
+ background:white;
+}
+
+/* content inside the nav div box model */
+.top-navigation > .content{
+  width: 60rem;
+  height: 4.375rem;
+  margin: 0 auto;
 }
