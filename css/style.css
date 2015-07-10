@@ -438,12 +438,6 @@ th {
   padding: 0;
 }
 
-/* Temp Div borders */
-
-div{
-  border: 1px solid chocolate;
-}
-
 
 /* start of nav menu */
 
@@ -553,3 +547,42 @@ button:hover {
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
 }
+.footer {
+  background-color: white;
+  padding: 6rem;
+}
+.footer .content{
+    text-align: center;
+}
+hr{
+  border: 0;
+  border-top: 1px solid #eaebec;
+}
+.footer .content .icons li{
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+.footer .twitter {
+  color: #55acee;
+}
+.footer .facebook {
+  color: #4c66a4;
+}
+.footer .instagram {
+  color: #3f729b;
+}
+.footer .content {
+  text-align: center;
+}
+span {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
